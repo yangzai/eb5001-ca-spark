@@ -1,6 +1,6 @@
 # eb5001-ca-spark
 
-Base on importing projectinto IntelliJ
+Base on importing project into IntelliJ
 
 ```sh
 # Generate JAR to target/scala-2.11/stream-test.jar 
