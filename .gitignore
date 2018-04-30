@@ -1,5 +1,4 @@
-
-# Created by https://www.gitignore.io/api/macos,linux,windows,intellij
+# Created by https://www.gitignore.io/api/macos,linux,scala,windows,intellij
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
@@ -11,8 +10,6 @@
 .idea/dictionaries
 
 # Sensitive or high-churn files:
-
-
 .idea/**/dataSources/
 .idea/**/dataSources.ids
 .idea/**/dataSources.xml
@@ -110,6 +107,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### Scala ###
+*.class
+*.log
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -132,7 +133,7 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# End of https://www.gitignore.io/api/macos,linux,windows,intellij
+# End of https://www.gitignore.io/api/macos,linux,scala,windows,intellij
 
 # This project
 target
